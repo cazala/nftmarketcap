@@ -1,0 +1,42 @@
+circle {
+  display: none;
+}
+
+.ui.basic.table {
+  margin-bottom: 48px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.token-image {
+  width: 24px;
+  margin-right: 8px;
+}
+
+.info {
+  color: gray;
+  padding-bottom: 24px;
+}
+
+.green {
+  color: green;
+}
+
+.green:before {
+  content: '+';
+}
+
+.red {
+  color: red;
+}
+
+.off {
+  opacity: 0.5;
+}
+
+thead i {
+  color: gray;
+}
